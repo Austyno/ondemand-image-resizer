@@ -7,7 +7,7 @@ const helmet = require('helmet')
 const cors = require('cors')
 const morgan = require('morgan')
 
-dotenv.config({ path: './src/config/config.env' })
+dotenv.config({ path: './config/config.env' })
 
 //== Route files ==//
 const routes = require('./src/routes')
